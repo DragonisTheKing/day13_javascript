@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Mess Around</title>
+</head>
+ 
+<body>
+    <h1>Let's learn JavaScript</h1>
+    <h2>Let's learn about onclick and alerts</h2>
+
+    <a href="https://www.youtube.com">YouTube: Normal</a>
+
+    <br>
+    <br>
+ 
+    <a href="https://www.youtube.com" onclick="alert('Warning! You are about to leave the page!')">YouTube: With JavaScript!</a>
+ 
+    <h2>How do we display and hide text?</h2>
+    <h2>What's my secret identity?</h2>
+ 
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='I have a big brain, I am Megamind';
+    document.getElementById('secret').style.display='block';">Reveal!
+    </button>
+ 
+    <button onclick="document.getElementById('secret').style.display='none';">
+        Hide
+    </button>
+
+    <h2>Now let's change images.</h2>
+    <img src="images/lightson.jpg" id="myImage" style="height: 200px; width: 200px;">
+
+    <button onclick="document.getElementById('myImage').src='images/lightsoff.jpg';">
+        Bulb Off!
+    </button>
+
+    <button onclick="document.getElementById('myImage').src='images/lightson.jpg';">
+        Bulb On!
+    </button>
+ 
+    <h2>Can we change styles?</h2>
+    <p id="vihaan">Hi, I am Vihaan</p>
+
+    <button onclick="
+    document.getElementById('vihaan').style.color='blue';
+    document.getElementById('vihaan').style.fontSize='5px'">
+        Size Down Cake - EAT ME!!!!!!!
+    </button>
+
+    <button onclick="
+    document.getElementById('vihaan').style.color='red';
+    document.getElementById('vihaan').style.fontSize='290px'">
+        Size Up Potion - Slurp me like tommorow ain't comin
+    </button>
+
+    <br>
+    <br>
+
+    <h1>Now, let us move onto the classwork section.</h1>
+
+    <p id="colors">This text is lowkey unhighlighted.</p>
+ 
+    <button onclick="document.getElementById('colors').style.backgroundColor='aquamarine';">
+        Highlight the Text!
+    </button>
+ 
+    <button onclick="document.getElementById('colors').style.backgroundColor='white';">
+        Hide the Highlight because I a boring, self-centered jerk.
+    </button>
+
+    <p id="italic">This text, in truth, is not underlined.</p>
+
+    <button onclick="document.getElementById('italic').style.textDecoration='underline';">
+        Change that.
+    </button>
+
+    <button onclick="document.getElementById('italic').style.textDecoration='none';">
+        Go back becase I'm a bum who can't withstand any change in life.
+    </button>
+
+</body>
+ 
+</html
